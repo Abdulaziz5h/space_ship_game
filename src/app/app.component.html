@@ -1,0 +1,20 @@
+<router-outlet></router-outlet>
+<audio #audio_music controls loop class="audio">
+  <source src="/assets/music/game-level-music.mp3">
+</audio>
+<audio #short_laser_gun controls loop class="audio">
+  <source src="/assets/music/retro-emergency-tones.wav">
+</audio>
+<audio #sad_game_over controls class="audio">
+  <source src="/assets/music/sad-game-over.wav">
+</audio>
+<!-- TODO: Decorator pattern -->
+<button class="btn audio-control" (click)="toggleAudio()">
+  <img *ngIf="!isMute" src="/assets/images/volume-up-interface-symbol.png" width="16" height="16" alt="volume-up">
+  <img *ngIf="isMute" src="/assets/images/mute.png" width="16" height="16" alt="mute">
+</button>
+<div class="audio-permesions" *ngIf="!selected">
+  <h5>do you prefer to play music with game</h5>
+  <button class="btn" (click)="toggleAudio(); selected = true;">yes please</button>
+  <button class="btn" (click)="selected = true">no thanks</button>
+</div>

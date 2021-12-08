@@ -1,0 +1,72 @@
+.bg-container {
+  background: url("/assets/images/starter-page-background.jpg") center center
+    no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  .play-options {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    width: calc(100% - 64px);
+    height: calc(100% - 64px);
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1 {
+      text-transform: capitalize;
+    }
+    .info-icon {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      cursor: pointer;
+    }
+    .images-preview {
+      padding-top: 16px;
+      display: flex;
+      justify-content: space-around;
+      img {
+        border: solid 1px #efefef;
+        border-radius: 20px;
+        transition: 0.4s;
+        cursor: pointer;
+        &:hover,
+        &.active {
+          box-shadow: 0 0 12px #ffffff90;
+        }
+      }
+    }
+    .play-btn {
+      background: transparent;
+      border: solid 1px #efefef;
+      color: #efefef;
+      text-transform: capitalize;
+      &:hover {
+        background: #efefef;
+        color: #000;
+      }
+    }
+  }
+}
+table {
+  thead {
+    th {
+      text-transform: capitalize;
+      border: solid 1px #efefef;
+    }
+  }
+  tbody {
+    tr {
+      td {
+        text-transform: capitalize;
+        border: solid 1px #efefef;
+      }
+    }
+  }
+}

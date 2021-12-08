@@ -1,0 +1,43 @@
+.player-blood {
+  width: 200px;
+  height: 26px;
+  position: absolute;
+  border-radius: 4px;
+  border: solid 1px #efefef;
+  overflow: hidden;
+  top: 16px;
+  left: 16px;
+  z-index: 1;
+  text-align: center;
+  .blood-progress {
+    content: '';
+    position: absolute;
+    top: 0;
+    border-radius: 4px;
+    background: rgb(31, 150, 31);
+    width: 200px;
+    height: 100%;
+  }
+  .blood-counter {
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    z-index: 1;
+  }
+}
+.score {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  background:radial-gradient(rgba(0, 0, 0, .4), #00000090);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

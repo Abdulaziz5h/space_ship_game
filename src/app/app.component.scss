@@ -1,0 +1,41 @@
+.audio-permesions {
+  width: 300px;
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  background: rgba(0, 0, 0, .8);
+  border: solid 1px #717171;
+  color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1.7;
+  .btn {
+  text-transform: capitalize;
+  margin-top: 1rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    &:first-of-type {
+      margin-right: .5rem;
+    }
+  }
+}
+.audio {
+  position: fixed;
+  top: 0;
+  opacity: 0;
+}
+.audio-control {
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  user-select: none;
+}

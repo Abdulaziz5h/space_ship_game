@@ -1,0 +1,60 @@
+<div class="bg-container">
+  <div class="play-options">
+    <h1>space ship game</h1>
+    <img class="info-icon" *ngIf="!infoModel" (click)="infoModel = true" src="/assets/images/info.png" width="30" height="30" alt="info">
+    <img class="info-icon" *ngIf="infoModel" (click)="infoModel = false" src="/assets/images/close.png" width="20" height="20" alt="close">
+    <div *ngIf="!infoModel; else modal" class="images-preview">
+      <img src="/assets/images/model_2.png" (click)="globalService.type = 0" [class]="!globalService.type ? 'active' : ''" alt="model_2" width="280" height="150">
+      <img src="/assets/images/model_1.png" (click)="globalService.type = 1" [class]="globalService.type ? 'active' : ''" alt="model_1" width="280" height="150">
+    </div>
+    <ng-template #modal>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>action</th>
+            <th>key</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>move up</td>
+            <td>w / arrow up</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>move down</td>
+            <td>s / arrow down</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>move left</td>
+            <td>a / arrow left</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>move right</td>
+            <td>d / arrow right</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>speed</td>
+            <td>space</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>fire</td>
+            <td>e</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>change fire mode</td>
+            <td>r</td>
+          </tr>
+        </tbody>
+      </table>
+    </ng-template>
+    <button class="play-btn btn" (click)="startPlay()">play game</button>
+  </div>
+</div>
