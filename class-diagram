@@ -1,0 +1,2123 @@
+<?xml version="1.0" standalone="yes"?>
+<DesignPatternProject>
+  <Project>
+    <ProjectName>space_ship</ProjectName>
+    <ProjectAuthor>space_ship</ProjectAuthor>
+    <Summary>space_ship</Summary>
+  </Project>
+  <Components>
+    <ComponentName>MyComponent</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GlobalService</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Router</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>AppComponent</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>StarterPage</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ModelLoader</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Three</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>PointLight</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>TextureLoader</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>PerspectiveCamera</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>WebGLRenderer</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Scene</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Rock</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>AmbientLight</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Object3D</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>bulletLoader</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>LazerBallet</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>FBXLoader</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GLTFLoader</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Mesh</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>EndPageComponent</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>AfterViewInit</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>OnDestroy</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>OnInit</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Subject</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>AppComponent</ClassName>
+    <MethodName>toggleAudio</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1981081052</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>StarterPage</ClassName>
+    <MethodName>startPlay</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>navigate to game page</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1218616321</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <MethodName>createScene</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1554895551</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <MethodName>getAspectRatio</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>997939744</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <MethodName>startRenderingLoop</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1233389881</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <MethodName>onWindowResize</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>721505669</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <MethodName>createHelpers</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1838678720</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <MethodName>initLight</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1870387689</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <MethodName>loadPlayerShip</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-751234872</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <MethodName>loadRocks</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-705191072</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <MethodName>selectAction</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1646162010</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <MethodName>animateArmi</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1977186780</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <MethodName>keyUpMethod</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1702806181</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <MethodName>keyDownMethos</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1863529128</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <MethodName>initEvent</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1417471581</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <MethodName>resetPlay</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1272080046</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <MethodName>cleanMaterial</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>801128380</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <MethodName>init</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>2121392835</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <MethodName>constructor</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>204787562</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <MethodName>singleton</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-4592022</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <MethodName>moveUp</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>82842545</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <MethodName>moveDown</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>759877984</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <MethodName>moveRight</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1690892143</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <MethodName>moveLeft</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>989676061</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <MethodName>dublicateSpeed</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>2147086636</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <MethodName>move</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-349067189</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <MethodName>resetShipRotation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>316391539</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <MethodName>decrementBlood</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1635385780</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <MethodName>toggleFireMode</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1661659741</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <MethodName>resetSpeed</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1637300916</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <MethodName>reset</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-735605095</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <MethodName>fire</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-699364556</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>bulletLoader</ClassName>
+    <MethodName>constructor</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1101218684</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>bulletLoader</ClassName>
+    <MethodName>init</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>274892657</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>LazerBallet</ClassName>
+    <MethodName>constructor</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>343326952</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>LazerBallet</ClassName>
+    <MethodName>die</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1678656259</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ModelLoader</ClassName>
+    <MethodName>constructor</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1006894235</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ModelLoader</ClassName>
+    <MethodName>init</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1289697093</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Rock</ClassName>
+    <MethodName>constructor</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>391960636</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Rock</ClassName>
+    <MethodName>die</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-805366927</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Rock</ClassName>
+    <MethodName>incrementNOH</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-310926039</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Rock</ClassName>
+    <MethodName>move</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-892906878</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>EndPageComponent</ClassName>
+    <MethodName>backHome</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-300195644</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>OnDestroy</ClassName>
+    <MethodName>ngOnDestroy</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>684862104</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>AfterViewInit</ClassName>
+    <MethodName>ngAfterViewInit</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1918247033</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>OnInit</ClassName>
+    <MethodName>ngOnInit</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1115185646</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>AppComponent</ClassName>
+    <MethodName>ngOnInit</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : OnInit of Component:MyComponent]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>106756137</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>AppComponent</ClassName>
+    <MethodName>ngOnDestroy</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : OnDestroy of Component:MyComponent]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>887376595</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>EndPageComponent</ClassName>
+    <MethodName>ngOnInit</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : OnInit of Component:MyComponent]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>927058917</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>EndPageComponent</ClassName>
+    <MethodName>ngOnDestroy</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : OnDestroy of Component:MyComponent]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>276782961</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>StarterPage</ClassName>
+    <MethodName>ngOnInit</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : OnInit of Component:MyComponent]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1052873195</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>StarterPage</ClassName>
+    <MethodName>ngOnDestroy</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : OnDestroy of Component:MyComponent]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-810029782</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GlobalService</ClassName>
+    <FieldType>number</FieldType>
+    <FieldName>score</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GlobalService</ClassName>
+    <FieldType>number</FieldType>
+    <FieldName>type</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>AppComponent</ClassName>
+    <FieldType>ElementRef</FieldType>
+    <FieldName>audio_music</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>AppComponent</ClassName>
+    <FieldType>boolean</FieldType>
+    <FieldName>isMute</FieldName>
+    <Summary>sond flag</Summary>
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>AppComponent</ClassName>
+    <FieldType>boolean</FieldType>
+    <FieldName>selected</FieldName>
+    <Summary>choose sonde state flag</Summary>
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>StarterPage</ClassName>
+    <FieldType>boolean</FieldType>
+    <FieldName>infoModel</FieldName>
+    <Summary>open info dialog</Summary>
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>ElementRef</FieldType>
+    <FieldName>canvasRef</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>ElementRef</FieldType>
+    <FieldName>blood</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>ElementRef</FieldType>
+    <FieldName>bloodProgress</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>ElementRef</FieldType>
+    <FieldName>score</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>number</FieldType>
+    <FieldName>isLoading</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>number</FieldType>
+    <FieldName>rocksListLeingth</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>Object</FieldType>
+    <FieldName>myGameArea</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>ModelLoader</FieldType>
+    <FieldName>rock_type_1</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>ModelLoader</FieldType>
+    <FieldName>rock_type_2</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>ModelLoader</FieldType>
+    <FieldName>rock_type_3</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>ModelLoader</FieldType>
+    <FieldName>rock_type_4</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>PointLight</FieldType>
+    <FieldName>topLight</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>PointLight</FieldType>
+    <FieldName>bottomLight</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>PointLight</FieldType>
+    <FieldName>backTopLight</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>PointLight</FieldType>
+    <FieldName>backBottomLight</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>TextureLoader</FieldType>
+    <FieldName>loader</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>PerspectiveCamera</FieldType>
+    <FieldName>camera</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>WebGLRenderer</FieldType>
+    <FieldName>renderer</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>Scene</FieldType>
+    <FieldName>scene</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>Ship</FieldType>
+    <FieldName>playerShip</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>boolean</FieldType>
+    <FieldName>activePlay</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <FieldType>string</FieldType>
+    <FieldName>typePath</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <FieldType>number</FieldType>
+    <FieldName>blood</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <FieldType>Object3D</FieldType>
+    <FieldName>model</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <FieldType>bulletLoader</FieldType>
+    <FieldName>bulletModel</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <FieldType>number</FieldType>
+    <FieldName>fireMode</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <FieldType>LazerBallet</FieldType>
+    <FieldName>ballesList</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <FieldType>number</FieldType>
+    <FieldName>type</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <FieldType>Ship</FieldType>
+    <FieldName>player</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>bulletLoader</ClassName>
+    <FieldType>string</FieldType>
+    <FieldName>typePath</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>bulletLoader</ClassName>
+    <FieldType>Object</FieldType>
+    <FieldName>model</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>LazerBallet</ClassName>
+    <FieldType>Mesh</FieldType>
+    <FieldName>model</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>LazerBallet</ClassName>
+    <FieldType>number</FieldType>
+    <FieldName>type</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>LazerBallet</ClassName>
+    <FieldType>boolean</FieldType>
+    <FieldName>alive</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ModelLoader</ClassName>
+    <FieldType>Object</FieldType>
+    <FieldName>model</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ModelLoader</ClassName>
+    <FieldType>string</FieldType>
+    <FieldName>typePath</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Rock</ClassName>
+    <FieldType>Mesh</FieldType>
+    <FieldName>model</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Rock</ClassName>
+    <FieldType>boolean</FieldType>
+    <FieldName>alive</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Rock</ClassName>
+    <FieldType>number</FieldType>
+    <FieldName>NOH</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Rock</ClassName>
+    <FieldType>number</FieldType>
+    <FieldName>type</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>EndPageComponent</ClassName>
+    <FieldType>Router</FieldType>
+    <FieldName>router</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>EndPageComponent</ClassName>
+    <FieldType>GlobalService</FieldType>
+    <FieldName>globalService</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>StarterPage</ClassName>
+    <FieldType>GlobalService</FieldType>
+    <FieldName>globalService</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>StarterPage</ClassName>
+    <FieldType>Router</FieldType>
+    <FieldName>router</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>GlobalService</FieldType>
+    <FieldName>globalService</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <FieldType>Router</FieldType>
+    <FieldName>router</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GlobalService</ClassName>
+    <FieldType>Subject</FieldType>
+    <FieldName>starterMusic</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GlobalService</ClassName>
+    <FieldType>Subject</FieldType>
+    <FieldName>gameOver</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GlobalService</ClassName>
+    <FieldType>Subject</FieldType>
+    <FieldName>bulletFire</FieldName>
+    <Summary />
+    <Visibility>public</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Parameters>
+    <ParameterType>function</ParameterType>
+    <ParameterName>callback</ParameterName>
+    <Summary>add ship to the scene</Summary>
+    <MethodID>1510813795</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>function</ParameterType>
+    <ParameterName>loadCollback</ParameterName>
+    <Summary>increment loading counter</Summary>
+    <MethodID>1510813795</MethodID>
+    <ParamOrder>1</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>string</ParameterType>
+    <ParameterName>direction</ParameterName>
+    <Summary>direction letter</Summary>
+    <MethodID>-803067898</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>function</ParameterType>
+    <ParameterName>callback</ParameterName>
+    <Summary>add bullets to scene</Summary>
+    <MethodID>68284957</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>function</ParameterType>
+    <ParameterName>removeCallback</ParameterName>
+    <Summary>remove bullets from scene</Summary>
+    <MethodID>68284957</MethodID>
+    <ParamOrder>1</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>string</ParameterType>
+    <ParameterName>typePath</ParameterName>
+    <Summary />
+    <MethodID>-390045554</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>function</ParameterType>
+    <ParameterName>callback</ParameterName>
+    <Summary>add bullets to scene</Summary>
+    <MethodID>-2018823895</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>any</ParameterType>
+    <ParameterName>geometry</ParameterName>
+    <Summary />
+    <MethodID>260435108</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>any</ParameterType>
+    <ParameterName>material</ParameterName>
+    <Summary />
+    <MethodID>260435108</MethodID>
+    <ParamOrder>1</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>any</ParameterType>
+    <ParameterName>position</ParameterName>
+    <Summary />
+    <MethodID>260435108</MethodID>
+    <ParamOrder>2</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>string</ParameterType>
+    <ParameterName>typePath</ParameterName>
+    <Summary />
+    <MethodID>1880143219</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>function</ParameterType>
+    <ParameterName>callback</ParameterName>
+    <Summary>increment loading counter</Summary>
+    <MethodID>-818989340</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>GlobalService</ParameterType>
+    <ParameterName>globalService</ParameterName>
+    <Summary />
+    <MethodID>89163444</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Router</ParameterType>
+    <ParameterName>router</ParameterName>
+    <Summary />
+    <MethodID>89163444</MethodID>
+    <ParamOrder>1</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>string</ParameterType>
+    <ParameterName>move</ParameterName>
+    <Summary>move direction</Summary>
+    <MethodID>1646476366</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Rock</ParameterType>
+    <ParameterName>rock</ParameterName>
+    <Summary />
+    <MethodID>-1694138030</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>event</ParameterType>
+    <ParameterName>e</ParameterName>
+    <Summary />
+    <MethodID>1868419503</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>event</ParameterType>
+    <ParameterName>e</ParameterName>
+    <Summary />
+    <MethodID>1138229370</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>string</ParameterType>
+    <ParameterName>move</ParameterName>
+    <Summary />
+    <MethodID>1646162010</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Rock</ParameterType>
+    <ParameterName>rock</ParameterName>
+    <Summary />
+    <MethodID>1977186780</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Event</ParameterType>
+    <ParameterName>e</ParameterName>
+    <Summary />
+    <MethodID>-1702806181</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Event</ParameterType>
+    <ParameterName>e</ParameterName>
+    <Summary />
+    <MethodID>1863529128</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Material</ParameterType>
+    <ParameterName>material</ParameterName>
+    <Summary />
+    <MethodID>801128380</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>function</ParameterType>
+    <ParameterName>callback</ParameterName>
+    <Summary />
+    <MethodID>2121392835</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>function</ParameterType>
+    <ParameterName>loadCollback</ParameterName>
+    <Summary />
+    <MethodID>2121392835</MethodID>
+    <ParamOrder>1</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>number</ParameterType>
+    <ParameterName>type</ParameterName>
+    <Summary />
+    <MethodID>204787562</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>string</ParameterType>
+    <ParameterName>typePath</ParameterName>
+    <Summary />
+    <MethodID>204787562</MethodID>
+    <ParamOrder>1</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>string</ParameterType>
+    <ParameterName>typePath</ParameterName>
+    <Summary />
+    <MethodID>-4592022</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>number</ParameterType>
+    <ParameterName>type</ParameterName>
+    <Summary />
+    <MethodID>-4592022</MethodID>
+    <ParamOrder>1</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>function</ParameterType>
+    <ParameterName>callback</ParameterName>
+    <Summary />
+    <MethodID>-699364556</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>function</ParameterType>
+    <ParameterName>removeCallback</ParameterName>
+    <Summary />
+    <MethodID>-699364556</MethodID>
+    <ParamOrder>1</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>string</ParameterType>
+    <ParameterName>typePath</ParameterName>
+    <Summary />
+    <MethodID>1101218684</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>function</ParameterType>
+    <ParameterName>callback</ParameterName>
+    <Summary />
+    <MethodID>800934381</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Object</ParameterType>
+    <ParameterName>geometry</ParameterName>
+    <Summary />
+    <MethodID>343326952</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Object</ParameterType>
+    <ParameterName>material</ParameterName>
+    <Summary />
+    <MethodID>343326952</MethodID>
+    <ParamOrder>1</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Object</ParameterType>
+    <ParameterName>position</ParameterName>
+    <Summary />
+    <MethodID>343326952</MethodID>
+    <ParamOrder>2</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>function</ParameterType>
+    <ParameterName>callback</ParameterName>
+    <Summary />
+    <MethodID>-1678656259</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>string</ParameterType>
+    <ParameterName>typePath</ParameterName>
+    <Summary />
+    <MethodID>-1006894235</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>function</ParameterType>
+    <ParameterName>callback</ParameterName>
+    <Summary />
+    <MethodID>-1289697093</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Object</ParameterType>
+    <ParameterName>geometry</ParameterName>
+    <Summary />
+    <MethodID>391960636</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Object</ParameterType>
+    <ParameterName>material</ParameterName>
+    <Summary />
+    <MethodID>391960636</MethodID>
+    <ParamOrder>1</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Object</ParameterType>
+    <ParameterName>position</ParameterName>
+    <Summary />
+    <MethodID>391960636</MethodID>
+    <ParamOrder>2</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>number</ParameterType>
+    <ParameterName>type</ParameterName>
+    <Summary />
+    <MethodID>391960636</MethodID>
+    <ParamOrder>3</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>boolean</ParameterType>
+    <ParameterName>animate</ParameterName>
+    <Summary />
+    <MethodID>-805366927</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>function</ParameterType>
+    <ParameterName>callback</ParameterName>
+    <Summary />
+    <MethodID>-805366927</MethodID>
+    <ParamOrder>1</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>number</ParameterType>
+    <ParameterName>rock_type</ParameterName>
+    <Summary />
+    <MethodID>-805366927</MethodID>
+    <ParamOrder>2</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>function</ParameterType>
+    <ParameterName>animationDieCallback</ParameterName>
+    <Summary />
+    <MethodID>-805366927</MethodID>
+    <ParamOrder>3</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>number</ParameterType>
+    <ParameterName>type</ParameterName>
+    <Summary />
+    <MethodID>-805366927</MethodID>
+    <ParamOrder>4</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Three</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>PointLight</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Three</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>TextureLoader</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Three</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>PerspectiveCamera</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Three</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>WebGLRenderer</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Three</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>Scene</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Three</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>AmbientLight</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Three</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>Object3D</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Three</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>FBXLoader</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Three</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>GLTFLoader</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Three</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>Mesh</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>AfterViewInit</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>GameComponent</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>OnDestroy</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>GameComponent</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>OnInit</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>AppComponent</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>OnDestroy</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>AppComponent</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>OnInit</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>EndPageComponent</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>OnDestroy</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>EndPageComponent</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>OnInit</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>StarterPage</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>OnDestroy</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>StarterPage</DerivedClassName>
+  </Inheritances>
+  <References>
+    <ReferenceComponent>MyComponent</ReferenceComponent>
+    <ReferenceClass>StarterPage</ReferenceClass>
+    <ReferedComponentName>MyComponent</ReferedComponentName>
+    <ReferedClassName>GlobalService</ReferedClassName>
+    <ReferenceName>globalService</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>MyComponent</ReferenceComponent>
+    <ReferenceClass>StarterPage</ReferenceClass>
+    <ReferedComponentName>MyComponent</ReferedComponentName>
+    <ReferedClassName>Router</ReferedClassName>
+    <ReferenceName>router</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>MyComponent</ReferenceComponent>
+    <ReferenceClass>GameComponent</ReferenceClass>
+    <ReferedComponentName>MyComponent</ReferedComponentName>
+    <ReferedClassName>GlobalService</ReferedClassName>
+    <ReferenceName>globalService</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>MyComponent</ReferenceComponent>
+    <ReferenceClass>GameComponent</ReferenceClass>
+    <ReferedComponentName>MyComponent</ReferedComponentName>
+    <ReferedClassName>Router</ReferedClassName>
+    <ReferenceName>router</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>MyComponent</ReferenceComponent>
+    <ReferenceClass>GameComponent</ReferenceClass>
+    <ReferedComponentName>MyComponent</ReferedComponentName>
+    <ReferedClassName>Ship</ReferedClassName>
+    <ReferenceName>Ship</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>MyComponent</ReferenceComponent>
+    <ReferenceClass>EndPageComponent</ReferenceClass>
+    <ReferedComponentName>MyComponent</ReferedComponentName>
+    <ReferedClassName>GlobalService</ReferedClassName>
+    <ReferenceName>globalService</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>MyComponent</ReferenceComponent>
+    <ReferenceClass>EndPageComponent</ReferenceClass>
+    <ReferedComponentName>MyComponent</ReferedComponentName>
+    <ReferedClassName>Router</ReferedClassName>
+    <ReferenceName>router</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>GameComponent</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>ModelLoader</CreateeClassName>
+    <RelationOrder>Multiple</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>GameComponent</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>PointLight</CreateeClassName>
+    <RelationOrder>Multiple</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>GameComponent</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>TextureLoader</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>GameComponent</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>Scene</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>GameComponent</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>WebGLRenderer</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>GameComponent</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>AmbientLight</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>GameComponent</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>Rock</CreateeClassName>
+    <RelationOrder>Multiple</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>Ship</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>bulletLoader</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>Ship</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>LazerBallet</CreateeClassName>
+    <RelationOrder>Multiple</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>Ship</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>Ship</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>Ship</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>FBXLoader</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>bulletLoader</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>FBXLoader</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>LazerBallet</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>Mesh</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>ModelLoader</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>GLTFLoader</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>Rock</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>Mesh</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>Rock</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>Rock</CreateeClassName>
+    <RelationOrder>Multiple</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>GlobalService</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>Subject</CreateeClassName>
+    <RelationOrder>Multiple</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>GameComponent</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>PerspectiveCamera</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GlobalService</ClassName>
+    <XCoOrdinate>537</XCoOrdinate>
+    <YCoOrdinate>1195</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Router</ClassName>
+    <XCoOrdinate>410</XCoOrdinate>
+    <YCoOrdinate>1154</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>AppComponent</ClassName>
+    <XCoOrdinate>62</XCoOrdinate>
+    <YCoOrdinate>1548</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>StarterPage</ClassName>
+    <XCoOrdinate>159</XCoOrdinate>
+    <YCoOrdinate>984</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GameComponent</ClassName>
+    <XCoOrdinate>482</XCoOrdinate>
+    <YCoOrdinate>440</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ModelLoader</ClassName>
+    <XCoOrdinate>936</XCoOrdinate>
+    <YCoOrdinate>339</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Three</ClassName>
+    <XCoOrdinate>640</XCoOrdinate>
+    <YCoOrdinate>50</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>PointLight</ClassName>
+    <XCoOrdinate>533</XCoOrdinate>
+    <YCoOrdinate>199</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>TextureLoader</ClassName>
+    <XCoOrdinate>684</XCoOrdinate>
+    <YCoOrdinate>199</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>PerspectiveCamera</ClassName>
+    <XCoOrdinate>273</XCoOrdinate>
+    <YCoOrdinate>168</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>WebGLRenderer</ClassName>
+    <XCoOrdinate>356</XCoOrdinate>
+    <YCoOrdinate>195</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Scene</ClassName>
+    <XCoOrdinate>260</XCoOrdinate>
+    <YCoOrdinate>124</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ship</ClassName>
+    <XCoOrdinate>1250</XCoOrdinate>
+    <YCoOrdinate>701</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Rock</ClassName>
+    <XCoOrdinate>1143</XCoOrdinate>
+    <YCoOrdinate>442</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>AmbientLight</ClassName>
+    <XCoOrdinate>1130</XCoOrdinate>
+    <YCoOrdinate>153</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Object3D</ClassName>
+    <XCoOrdinate>1004</XCoOrdinate>
+    <YCoOrdinate>103</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>bulletLoader</ClassName>
+    <XCoOrdinate>1801</XCoOrdinate>
+    <YCoOrdinate>703</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>LazerBallet</ClassName>
+    <XCoOrdinate>1537</XCoOrdinate>
+    <YCoOrdinate>1177</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>FBXLoader</ClassName>
+    <XCoOrdinate>1857</XCoOrdinate>
+    <YCoOrdinate>286</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>GLTFLoader</ClassName>
+    <XCoOrdinate>972</XCoOrdinate>
+    <YCoOrdinate>229</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Mesh</ClassName>
+    <XCoOrdinate>1998</XCoOrdinate>
+    <YCoOrdinate>76</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>EndPageComponent</ClassName>
+    <XCoOrdinate>465</XCoOrdinate>
+    <YCoOrdinate>1420</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>AfterViewInit</ClassName>
+    <XCoOrdinate>1</XCoOrdinate>
+    <YCoOrdinate>178</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>OnDestroy</ClassName>
+    <XCoOrdinate>107</XCoOrdinate>
+    <YCoOrdinate>294</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>OnInit</ClassName>
+    <XCoOrdinate>81</XCoOrdinate>
+    <YCoOrdinate>97</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Subject</ClassName>
+    <XCoOrdinate>924</XCoOrdinate>
+    <YCoOrdinate>1206</YCoOrdinate>
+  </UIDetails>
+  <ComponentUIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <Width>2100</Width>
+    <Height>2100</Height>
+  </ComponentUIDetails>
+</DesignPatternProject>
