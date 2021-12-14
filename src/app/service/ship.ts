@@ -23,8 +23,8 @@ export default class Ship {
       this.typePath,
       (model) => {
         this.model = model.children[0];
-        this.model.scale.set(0.008, 0.008, 0.008);
-        model.children[0].position.set(0, 0, -1);
+        this.model.scale.set(0.005, 0.005, 0.005);
+        model.children[0].position.set(0, 0, -1.2);
         model.children[0].rotation.set(0, 0, 0);
         var StarSparrow_Emission = new THREE.TextureLoader().load(
           '/assets/model/star-sparrow-modular-spaceship/textures/StarSparrow_Emission.png'
@@ -39,7 +39,9 @@ export default class Ship {
               child.position.y,
               child.position.z - 750
             );
-            child.material.map = (component.type ? StarSparrow_Emission : StarSparrow_Red);
+            child.material.map = component.type
+              ? StarSparrow_Emission
+              : StarSparrow_Red;
             child.castShadow = true;
           }
         });
@@ -58,16 +60,16 @@ export default class Ship {
     this.bulletModel.init();
   }
   static singleton = (typePath: string, type: number = 0) => {
-    if(!this.player) this.player = new Ship(typePath, type)
-    return this.player
-  }
+    if (!this.player) this.player = new Ship(typePath, type);
+    return this.player;
+  };
   moveUp() {
-    this.model.position.y += 0.15;
+    this.model.position.y += 0.2;
     const Ship = this.model;
     (function rotate() {
       const x = requestAnimationFrame(rotate);
-      if (Ship.rotation.x > -0.15) {
-        Ship.rotation.x -= 0.01;
+      if (Ship.rotation.x > -0.1) {
+        Ship.rotation.x -= 0.005;
       } else {
         cancelAnimationFrame(x);
       }
@@ -78,8 +80,8 @@ export default class Ship {
     const Ship = this.model;
     (function rotate() {
       const x = requestAnimationFrame(rotate);
-      if (Ship.rotation.x < 0.2) {
-        Ship.rotation.x += 0.01;
+      if (Ship.rotation.x < 0.25) {
+        Ship.rotation.x += 0.005;
       } else {
         cancelAnimationFrame(x);
       }
@@ -91,7 +93,7 @@ export default class Ship {
     (function rotate() {
       const x = requestAnimationFrame(rotate);
       if (Ship.rotation.y < 0.2) {
-        Ship.rotation.y += 0.01;
+        Ship.rotation.y += 0.005;
       } else {
         cancelAnimationFrame(x);
       }
@@ -103,30 +105,11 @@ export default class Ship {
     (function rotate() {
       const x = requestAnimationFrame(rotate);
       if (Ship.rotation.y > -0.2) {
-        Ship.rotation.y -= 0.01;
+        Ship.rotation.y -= 0.005;
       } else {
         cancelAnimationFrame(x);
       }
     })();
-  }
-  dublicateSpeed() {
-    speed = 0.3;
-    const Ship = this.model;
-    (function rotate() {
-      const x = requestAnimationFrame(rotate);
-      if (Ship.rotation.x > -0.2) {
-        Ship.rotation.x -= 0.01;
-      } else {
-        cancelAnimationFrame(x);
-      }
-    })();
-  }
-  move(direction) {
-    if (direction == 'w') this.moveUp();
-    if (direction == 's') this.moveDown();
-    if (direction == 'd') this.moveLeft();
-    if (direction == 'a') this.moveRight();
-    if (direction == 'speed') this.dublicateSpeed();
   }
   resetShipRotation() {
     const model = this.model;
@@ -163,6 +146,16 @@ export default class Ship {
       }
     })();
   }
+  dublicateSpeed() {
+    speed = 0.3;
+  }
+  move(direction) {
+    if (direction == 'w') this.moveUp();
+    if (direction == 's') this.moveDown();
+    if (direction == 'd') this.moveLeft();
+    if (direction == 'a') this.moveRight();
+    if (direction == 'speed') this.dublicateSpeed();
+  }
   decrementBlood() {
     this.blood -= 10;
     return this.blood;
@@ -177,7 +170,11 @@ export default class Ship {
         const ballet = new LazerBallet(
           this.bulletModel.model.geometry,
           this.bulletModel.model.material,
-          this.model.position
+          {
+            x: this.model.position.x,
+            y: this.model.position.y,
+            z: this.model.position.z - 0.2,
+          }
         );
         this.ballesList.push(ballet);
         callback(ballet.model);
@@ -205,18 +202,18 @@ export default class Ship {
           this.bulletModel.model.geometry,
           this.bulletModel.model.material,
           {
-            x: this.model.position.x - 0.5,
+            x: this.model.position.x - 0.3,
             y: this.model.position.y - 0.1,
-            z: this.model.position.z,
+            z: this.model.position.z - 0.2,
           }
         );
         const ballet_2 = new LazerBallet(
           this.bulletModel.model.geometry,
           this.bulletModel.model.material,
           {
-            x: this.model.position.x + 0.5,
+            x: this.model.position.x + 0.3,
             y: this.model.position.y - 0.1,
-            z: this.model.position.z,
+            z: this.model.position.z - 0.2,
           }
         );
         this.ballesList.push(ballet_1);
@@ -263,5 +260,3 @@ export default class Ship {
     this.ballesList = [];
   }
 }
-
-// TODO: fix balles shadow hidden ?

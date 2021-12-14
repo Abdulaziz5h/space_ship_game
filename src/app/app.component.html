@@ -3,11 +3,18 @@
   <source src="/assets/music/game-level-music.mp3">
 </audio>
 <audio #short_laser_gun controls loop class="audio">
-  <source src="/assets/music/retro-emergency-tones.wav">
+  <source src="assets/music/retro-emergency-tones.mp3">
 </audio>
 <audio #sad_game_over controls class="audio">
   <source src="/assets/music/sad-game-over.wav">
 </audio>
+<audio #spaceship loop controls class="audio">
+  <source src="assets/music/zapsplat_science_fiction_spaceship_station_drone_loud.mp3">
+</audio>
+<audio #whoosh_fee controls class="audio">
+  <source src="assets/music/audio_mangler_whoosh_fee_149_388-[AudioTrimmer.com].mp3">
+</audio>
+
 <!-- TODO: Decorator pattern -->
 <button class="btn audio-control" (click)="toggleAudio()">
   <img *ngIf="!isMute" src="/assets/images/volume-up-interface-symbol.png" width="16" height="16" alt="volume-up">

@@ -3,8 +3,8 @@ import { GlobalService } from "src/app/utils/global.service";
 import { Router } from "@angular/router";
 @Component({
   selector: 'app-starter-page',
-  templateUrl: '../views/starter-page/starter-page.component.html',
-  styleUrls: ['../views/starter-page/starter-page.component.scss']
+  templateUrl: './starter-page.component.html',
+  styleUrls: ['./starter-page.component.scss']
 })
 export class StarterPageComponent implements OnInit, OnDestroy {
   infoModel = false

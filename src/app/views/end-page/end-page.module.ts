@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { EndPageComponent } from '../../controller/end-page.component';
+import { EndPageComponent } from './end-page.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({

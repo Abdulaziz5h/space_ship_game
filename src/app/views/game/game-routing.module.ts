@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
 
-import { GameComponent } from '../../controller/game.component';
-import { StarterPageComponent } from 'src/app/controller/starter-page.component';
-import { EndPageComponent } from 'src/app/controller/end-page.component';
+import { GameComponent } from './game.component';
+import { StarterPageComponent } from './../starter-page/starter-page.component';
+import { EndPageComponent } from './../end-page/end-page.component';
 
 export const routes: Routes = [
   {

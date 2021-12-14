@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { StarterPageComponent } from '../../controller/starter-page.component';
+import { StarterPageComponent } from './starter-page.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({

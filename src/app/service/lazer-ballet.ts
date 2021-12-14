@@ -10,7 +10,6 @@ export default class {
     Mesh.rotation.y = 3.1;
     this.model = Mesh
   }
-
   die(callback) {
     this.alive = false;
     this.model.geometry.dispose()

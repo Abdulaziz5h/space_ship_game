@@ -10,6 +10,8 @@ public score = 0;
 public starterMusic = new Subject<boolean>()
 public gameOver = new Subject<boolean>()
 public bulletFire = new Subject<boolean>()
+public spaceship = new Subject<boolean>()
+public whoosh_fee = new Subject<boolean>()
 
 constructor() {}
 }

@@ -12,6 +12,10 @@ export class AppComponent implements OnInit, OnDestroy {
   private short_laser_gun: ElementRef;
   @ViewChild('sad_game_over')
   private sad_game_over: ElementRef;
+  @ViewChild('spaceship')
+  private spaceship: ElementRef;
+  @ViewChild('whoosh_fee')
+  private whoosh_fee: ElementRef;
 
   // TODO: Decorator pattern
   isMute = true;
@@ -27,6 +31,13 @@ export class AppComponent implements OnInit, OnDestroy {
     this.globalService.bulletFire.subscribe((is) => {
       this.bulletFire(is);
     });
+    this.globalService.spaceship.subscribe((is) => {
+      this.spaceshipSound(is);
+    });
+    this.globalService.whoosh_fee.subscribe((is) => {
+      this.set_whoosh_fee(is);
+    });
+
   }
   // TODO: Decorator pattern
   toggleAudio() {
@@ -34,6 +45,8 @@ export class AppComponent implements OnInit, OnDestroy {
     this.audio_music.nativeElement.muted = this.isMute;
     this.short_laser_gun.nativeElement.muted = this.isMute;
     this.sad_game_over.nativeElement.muted = this.isMute;
+    this.spaceship.nativeElement.muted = this.isMute;
+    this.whoosh_fee.nativeElement.muted = this.isMute;
   }
   gameOver(is) {
     if (is) {
@@ -54,13 +67,31 @@ export class AppComponent implements OnInit, OnDestroy {
     }
     this.audio_music.nativeElement.muted = this.isMute;
   }
+  spaceshipSound(is) {
+    if (is) {
+      this.spaceship.nativeElement.play();
+    } else {
+      this.spaceship.nativeElement.pause();
+    }
+    this.spaceship.nativeElement.muted = this.isMute;
+  }
   bulletFire(is) {
+    this.short_laser_gun.nativeElement.volume  = 0.5
     if (is) {
       this.short_laser_gun.nativeElement.play();
     } else {
       this.short_laser_gun.nativeElement.pause();
     }
     this.short_laser_gun.nativeElement.muted = this.isMute;
+  }
+  set_whoosh_fee(is) {
+    this.whoosh_fee.nativeElement.volume  = 0.5
+    if (is) {
+      this.whoosh_fee.nativeElement.play();
+    } else {
+      this.whoosh_fee.nativeElement.pause();
+    }
+    this.whoosh_fee.nativeElement.muted = this.isMute;
   }
   ngOnDestroy() {
     this.audio_music.nativeElement.pause();
